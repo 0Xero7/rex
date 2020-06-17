@@ -7,6 +7,7 @@
 int main()
 {
 	Board board;
+	board.show_board();
 
 	for (int i = 0; i < 100; ++i) {
 		system("CLS");

@@ -1,6 +1,6 @@
 #pragma once
 
-enum class PIECE {
+enum PIECE {
 	ROOK,
 	KNIGHT,
 	BISHOP,

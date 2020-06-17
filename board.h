@@ -8,23 +8,11 @@
 class Board
 {
 private:
-	Bitboard w_rook;
-	Bitboard w_knight;
-	Bitboard w_bishop;
-	Bitboard w_king;
-	Bitboard w_queen;
-	Bitboard w_pawn;
-			 
-	Bitboard b_rook;
-	Bitboard b_knight;
-	Bitboard b_bishop;
-	Bitboard b_king;
-	Bitboard b_queen;
-	Bitboard b_pawn;
+	Bitboard pieces[12];
 
 public:
 	Board();
-	Board(const ull& board) : w_pawn(board) {}
+	//Board(const ull& board) : w_pawn(board) {}
 	void show_board();
 
 	template <COLOR> void get_movelist(std::vector<Move>&);
