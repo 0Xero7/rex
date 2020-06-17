@@ -1,0 +1,11 @@
+#pragma once
+enum class DIRECTION {
+	NORTH,
+	SOUTH,
+	EAST,
+	WEST,
+	NORTHEAST,
+	NORTHWEST,
+	SOUTHEAST,
+	SOUTHWEST
+};
